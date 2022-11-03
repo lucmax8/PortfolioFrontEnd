@@ -1,4 +1,10 @@
 .masthead{
     background-size:cover;
-    min-height: 30vh;
+    min-height: 60vh;
+}
+
+@media (max-width: 768px){
+    .masthead{
+        min-height: 30vh;
+    }
 }

@@ -14,27 +14,30 @@
 
 <body >
 
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
         <div class="container-fluid">
           <div class="row">
             <a class="navbar-brand" href="#">
-                <img src="media/APLogo-20-20.png" alt="Logo" width="120px" class="d-inline-block align-text-top">
+                <img src="media/APLogo-20-20.png" alt="Logo" width="120px" class="d-inline-block align-text-center">
                 #YOPROGRAMO
             </a>
           </div>
-          <div class="col">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#contraible">  
+          <span class="navbar-toggler-icon"></span>  
+        </button> 
+          <div class="col" id="contraible">
             <form class="d-flex align-items-center" role="search">
               <input class="form-control me-2" type="search" placeholder="Buscar personas" aria-label="Search">
               <button class="btn btn-outline-success text-nowrap" type="submit">Buscar</button>
             </form>
           </div>    
         </div>
-
-        <div class="d-flex align-items-center" id="rightNav">
-            <img src="media/Facebook_Logo.png" alt="Facebook Logo" width="40px">
-            <img src="media/instagram-6.png" alt="Instagram Logo" width="40px">
-            <img src="media/linkedin.png" alt="Linkedin Logo" width="40px">
-            <button type="button" class="btn btn-light">Iniciar Sesión</button>
+         
+        <div class="d-flex align-items-center collapse" id="contraible">
+            <a href="https://www.facebook.com"><img src="media/Facebook_Logo.png" alt="Facebook Logo" width="40px" HSPACE="5"> </a>
+            <a href="https://www.instagram.com"><img src="media/instagram-6.png" alt="Instagram Logo" width="40px"> </a>
+            <a href="https://www.linkedin.com"><img src="media/linkedin.png" alt="Linkedin Logo" width="40px" HSPACE="5"> </a>
+            <button type="button" class="btn btn-light text-nowrap">Iniciar Sesión</button>
         </div>
       </nav>
 
